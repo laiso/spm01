@@ -8,7 +8,7 @@ $ cd spm01
 ```
 
 ```swift
-// Package.swift
+// spm01/Package.swift
 import PackageDescription
 
 let package = Package(
@@ -19,8 +19,19 @@ let package = Package(
 )
 ```
 
+```bash
+spm01/Sources
+└── main.swift
+
+../spm02/Sources
+├── Greeter.h
+├── Greeter.m
+└── include
+    └── spm02.h
+```
+
 ```swift
-// Sources/main.swift
+// spm01/Sources/main.swift
 
 import spm02
 
